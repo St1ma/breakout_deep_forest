@@ -85,6 +85,11 @@ export default class extends Phaser.State {
         this.game.add.existing(this.paddle);
 
         this.paddle.body.immovable = true;
+        this.paddle.inputEnabled = true;
+
+        console.log(this.paddle.input)
+        this.paddle.input.enableDrag();
+        this.paddle.input.allowVerticalDrag = false;
     }
 
     setBricks() {
