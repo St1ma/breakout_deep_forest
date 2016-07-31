@@ -12,7 +12,7 @@ import Win      from './states/Win';
 class Main extends Phaser.Game {
     constructor () {
         let width = document.documentElement.clientWidth > 700 ? 700 : document.documentElement.clientWidth;
-        let height = document.documentElement.clientHeight > 460 ? 460 : document.documentElement.clientHeight;
+        let height = document.documentElement.clientHeight > 400 ? 400 : document.documentElement.clientHeight;
 
         super(width, height, Phaser.AUTO, 'content', null);
 

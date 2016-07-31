@@ -9066,7 +9066,7 @@
 	        _classCallCheck(this, Main);
 	
 	        var width = document.documentElement.clientWidth > 700 ? 700 : document.documentElement.clientWidth;
-	        var height = document.documentElement.clientHeight > 460 ? 460 : document.documentElement.clientHeight;
+	        var height = document.documentElement.clientHeight > 400 ? 400 : document.documentElement.clientHeight;
 	
 	        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Main).call(this, width, height, _phaser2.default.AUTO, 'content', null));
 	
@@ -112028,14 +112028,14 @@
 	            this.button = new _Button2.default({
 	                game: this.game,
 	                x: this.game.world.centerX - 100,
-	                y: 300,
+	                y: 240,
 	                action: this.startGame.bind(this, this.menuTheme)
 	            });
 	
 	            this.game.add.existing(this.button);
 	
-	            this.game.add.bitmapText(this.game.world.centerX - 105, 120, 'carrier_command', 'Deep Forest', 18);
-	            this.game.add.bitmapText(this.game.world.centerX - 70, 330, 'carrier_command', 'Start game', 12);
+	            this.game.add.bitmapText(this.game.world.centerX - 105, 60, 'carrier_command', 'Deep Forest', 18);
+	            this.game.add.bitmapText(this.game.world.centerX - 70, 270, 'carrier_command', 'Start game', 12);
 	        }
 	    }, {
 	        key: 'startGame',
@@ -112397,7 +112397,7 @@
 	                game: game,
 	                x: this.rect.left + 32,
 	                y: this.rect.top,
-	                width: this.rect.width - 63,
+	                width: this.rect.width - 33,
 	                height: this.rect.height,
 	                tileIndex: 0
 	            });
@@ -112419,7 +112419,7 @@
 	            this.paddle = new _Paddle2.default({
 	                game: this.game,
 	                x: 300,
-	                y: 400
+	                y: 350
 	            });
 	
 	            this.game.add.existing(this.paddle);
@@ -112466,7 +112466,7 @@
 	            this.ball = new _Ball2.default({
 	                game: this.game,
 	                x: 300,
-	                y: 365
+	                y: 325
 	            });
 	
 	            this.game.add.existing(this.ball);
@@ -112810,14 +112810,14 @@
 	            this.button = new _Button2.default({
 	                game: this.game,
 	                x: this.game.world.centerX - 100,
-	                y: 300,
+	                y: 240,
 	                action: this.restart.bind(this, this.menuTheme)
 	            });
 	
 	            this.game.add.existing(this.button);
 	
-	            this.game.add.bitmapText(this.game.world.centerX - 60, 200, 'carrier_command', 'Loose!', 18);
-	            this.game.add.bitmapText(this.game.world.centerX - 55, 330, 'carrier_command', 'Restart', 14);
+	            this.game.add.bitmapText(this.game.world.centerX - 60, 140, 'carrier_command', 'Loose!', 18);
+	            this.game.add.bitmapText(this.game.world.centerX - 55, 270, 'carrier_command', 'Restart', 14);
 	        }
 	    }, {
 	        key: 'restart',
@@ -112902,14 +112902,14 @@
 	            this.button = new _Button2.default({
 	                game: this.game,
 	                x: this.game.world.centerX - 100,
-	                y: 300,
+	                y: 240,
 	                action: this.restart.bind(this, this.menuTheme)
 	            });
 	
 	            this.game.add.existing(this.button);
 	
-	            this.game.add.bitmapText(this.game.world.centerX - 40, 200, 'carrier_command', 'Win!', 18);
-	            this.game.add.bitmapText(this.game.world.centerX - 70, 330, 'carrier_command', 'Once more', 14);
+	            this.game.add.bitmapText(this.game.world.centerX - 40, 140, 'carrier_command', 'Win!', 18);
+	            this.game.add.bitmapText(this.game.world.centerX - 70, 290, 'carrier_command', 'Once more', 14);
 	        }
 	    }, {
 	        key: 'restart',

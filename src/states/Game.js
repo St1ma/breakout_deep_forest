@@ -58,7 +58,7 @@ export default class extends Phaser.State {
             game,
             x: this.rect.left + 32,
             y: this.rect.top,
-            width: this.rect.width - 63,
+            width: this.rect.width - 33,
             height: this.rect.height,
             tileIndex: 0
         });
@@ -79,7 +79,7 @@ export default class extends Phaser.State {
         this.paddle = new Paddle({
             game: this.game,
             x: 300,
-            y: 400
+            y: 350
         });
 
         this.game.add.existing(this.paddle);
@@ -124,7 +124,7 @@ export default class extends Phaser.State {
         this.ball = new Ball({
             game: this.game,
             x: 300,
-            y: 365
+            y: 325
         });
 
         this.game.add.existing(this.ball);

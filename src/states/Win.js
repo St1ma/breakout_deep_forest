@@ -28,14 +28,14 @@ export default class extends Phaser.State {
         this.button = new Button({
             game: this.game,
             x: this.game.world.centerX - 100,
-            y: 300,
+            y: 240,
             action: this.restart.bind(this, this.menuTheme)
         });
 
         this.game.add.existing(this.button);
 
-        this.game.add.bitmapText(this.game.world.centerX - 40, 200, 'carrier_command','Win!', 18);
-        this.game.add.bitmapText(this.game.world.centerX - 70, 330, 'carrier_command','Once more', 14);
+        this.game.add.bitmapText(this.game.world.centerX - 40, 140, 'carrier_command','Win!', 18);
+        this.game.add.bitmapText(this.game.world.centerX - 70, 290, 'carrier_command','Once more', 14);
     }
 
     restart(menuTheme) {
