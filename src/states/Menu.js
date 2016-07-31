@@ -30,7 +30,7 @@ export default class extends Phaser.State {
 
         this.game.add.existing(this.button);
 
-        this.game.add.bitmapText(this.game.world.centerX - 105, 60, 'carrier_command','Deep Forest', 18);
+        this.game.add.bitmapText(this.game.world.centerX - 115, 90, 'carrier_command','Deep Forest', 18);
         this.game.add.bitmapText(this.game.world.centerX - 70, 270, 'carrier_command','Start game', 12);
     }
 

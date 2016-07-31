@@ -112034,7 +112034,7 @@
 	
 	            this.game.add.existing(this.button);
 	
-	            this.game.add.bitmapText(this.game.world.centerX - 105, 60, 'carrier_command', 'Deep Forest', 18);
+	            this.game.add.bitmapText(this.game.world.centerX - 115, 90, 'carrier_command', 'Deep Forest', 18);
 	            this.game.add.bitmapText(this.game.world.centerX - 70, 270, 'carrier_command', 'Start game', 12);
 	        }
 	    }, {
@@ -112419,7 +112419,7 @@
 	            this.paddle = new _Paddle2.default({
 	                game: this.game,
 	                x: 300,
-	                y: 350
+	                y: 340
 	            });
 	
 	            this.game.add.existing(this.paddle);
@@ -112466,7 +112466,7 @@
 	            this.ball = new _Ball2.default({
 	                game: this.game,
 	                x: 300,
-	                y: 325
+	                y: 315
 	            });
 	
 	            this.game.add.existing(this.ball);
@@ -112909,7 +112909,7 @@
 	            this.game.add.existing(this.button);
 	
 	            this.game.add.bitmapText(this.game.world.centerX - 40, 140, 'carrier_command', 'Win!', 18);
-	            this.game.add.bitmapText(this.game.world.centerX - 70, 290, 'carrier_command', 'Once more', 14);
+	            this.game.add.bitmapText(this.game.world.centerX - 70, 270, 'carrier_command', 'Once more', 14);
 	        }
 	    }, {
 	        key: 'restart',
