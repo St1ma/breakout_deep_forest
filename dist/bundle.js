@@ -112419,7 +112419,7 @@
 	            this.paddle = new _Paddle2.default({
 	                game: this.game,
 	                x: 300,
-	                y: 340
+	                y: 325
 	            });
 	
 	            this.game.add.existing(this.paddle);
@@ -112439,7 +112439,7 @@
 	            var sumGoldBrick = 0;
 	
 	            for (var i = 0; i < this.rect.width / 80 - 1; i++) {
-	                for (var j = 0; j < 4; j++) {
+	                for (var j = 0; j < 3; j++) {
 	
 	                    var CurrentBrick = _Brick2.default;
 	
@@ -112466,7 +112466,7 @@
 	            this.ball = new _Ball2.default({
 	                game: this.game,
 	                x: 300,
-	                y: 315
+	                y: 300
 	            });
 	
 	            this.game.add.existing(this.ball);
